@@ -13,4 +13,4 @@ before_build:
 build:
   publish_wap: true
   publish_azure: true
-verbosity: minimal
+	verbosity: minimal
