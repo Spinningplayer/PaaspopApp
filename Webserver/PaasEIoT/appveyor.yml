@@ -3,3 +3,6 @@
 - Visual Studio 2017
 build:
   publish_azure: true
+
+build_script:
+  cmd: dotnet publish ./PaasEIoT.csproj
