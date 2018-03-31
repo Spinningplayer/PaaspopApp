@@ -19,5 +19,17 @@ namespace PaasEIoT.Controllers
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Map()
+        {
+
+            return View();
+        }
+
+        public IActionResult MapTwee()
+        {
+            return View();
+        }
     }
 }
