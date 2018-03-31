@@ -8,6 +8,10 @@ dotnet_csproj:
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
+install:
+  - ps: Install-Product node "6"
+  - cd Webserver\PaasEIoT
+  - npm install  
 before_build:
   - cd Webserver
 #  - npm install
