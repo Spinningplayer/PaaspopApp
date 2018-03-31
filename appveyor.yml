@@ -9,9 +9,8 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-  - cd Webserver
+  - cd Webserver\PaasEIoT
   - npm install
-  - npm link webpack
   - nuget restore
 build:
   #publish_wap: true
