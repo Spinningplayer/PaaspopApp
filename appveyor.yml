@@ -2,7 +2,7 @@
 image: Visual Studio 2017
 dotnet_csproj:
   patch: true
-  file: '.\Webserver\PaasEIoT\*.csproj'
+  file: '**\Webserver\PaasEIoT\*.csproj'
   version: '{version}'
   package_version: '{version}'
   assembly_version: '{version}'
