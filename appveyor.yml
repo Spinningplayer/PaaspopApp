@@ -10,7 +10,7 @@ dotnet_csproj:
   informational_version: '{version}'
 before_build:
   - cd Webserver
-	- npm link webpack
+  - npm link webpack
   - nuget restore
 build:
   #publish_wap: true
