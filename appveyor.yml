@@ -2,13 +2,14 @@
 image: Visual Studio 2017 Preview
 dotnet_csproj:
   patch: true
-  file: '**\Webserver\*.csproj'
+  file: '.\Webserver\*.csproj'
   version: '{version}'
   package_version: '{version}'
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
+	cd Webserver
   - nuget restore
 build:
   #publish_wap: true
