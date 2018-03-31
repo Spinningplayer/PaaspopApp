@@ -9,7 +9,7 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-  - cd Webserver\PaasEIoT
+  - cd Webserver
 #  - npm install
   - nuget restore
 build:
