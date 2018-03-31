@@ -64,21 +64,23 @@ html, body {
 }
 .gwd-imagebutton-phoenix {
     display: block;
-    height: 95px;
+    height: 90px;
     opacity: 0.6;
     position: absolute;
-    width: 140px;
+    width: 135px;
     left: 1111px;
-    top: 485px;
+    top: 489px;
     transform: rotate(45deg);
+    border-radius: 30px;
 }
 .gwd-imagebutton-jack {
     position: absolute;
-    width: 50px;
-    height: 90px;
-    left: 450.8px;
+    width: 45px;
+    height: 87.5px;
+    left: 452.5px;
     top: 220px;
     opacity: 0.6;
+    border-radius: 5px;
 }
 .gwd-imagebutton-apollo {
     position: absolute;
@@ -87,6 +89,7 @@ html, body {
     left: 40px;
     top: 270px;
     opacity: 0.6;
+    border-radius: 35px;
 }
 .gwd-imagebutton-entrance {
     position: absolute;
@@ -97,15 +100,38 @@ html, body {
     opacity: 0.6;
     transform: rotate(-45deg);
 }
+
+.gwd-imagebutton-resto {
+    position: absolute;
+    width: 205px;
+    height: 67px;
+    left: 250px;
+    top: 495px;
+    opacity: 0.6;
+    border-radius: 25px;
+}
+
+.gwd-imagebutton-theatre {
+    position: absolute;
+    width: 86px;
+    height: 119px;
+    left: 744px;
+    top: 18px;
+    opacity: 0.6;
+    border-radius: 17.5px;
+}
+
 </style>
 <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
     <div is="gwd-page" id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox" data-gwd-width="1280px" data-gwd-height="895px">
         <div class="gwd-page-content gwd-page-size">
-            <img class="gwd-img-4bdv" is="gwd-image" src="./mapPaaspopLowRes.jpg" id="gwd-image_1">
+            <img class="gwd-img-4bdv" is="gwd-image" src="./PP_EI_pg.jpg" id="gwd-image_1">
             <div id="gwd-imagebutton_1" class="gwd-imagebutton-phoenix" #phoenix></div>
             <div id="gwd-imagebutton_2" class="gwd-imagebutton-jack" #jack></div>
             <div id="gwd-imagebutton_3" class="gwd-imagebutton-apollo" #apollo></div>
             <div id="gwd-imagebutton_4" class="gwd-imagebutton-entrance" #entrance></div>
+            <div id="gwd-imagebutton_5" class="gwd-imagebutton-resto" #resto></div>
+            <div id="gwd-imagebutton_6" class="gwd-imagebutton-theatre" #theatre></div>
         </div>
     </div>
 </div>
