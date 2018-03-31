@@ -9,7 +9,7 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 before_build:
-	- cd Webserver
+  - cd Webserver
   - nuget restore
 build:
   #publish_wap: true
