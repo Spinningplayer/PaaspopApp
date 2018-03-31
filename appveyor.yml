@@ -13,7 +13,7 @@ install:
   - cd Webserver\PaasEIoT
   - npm install  
 before_build:
-  - cd Webserver
+  - cd ../
 #  - npm install
   - nuget restore
 build:
